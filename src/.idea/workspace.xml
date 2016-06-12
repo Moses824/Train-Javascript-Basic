@@ -21,45 +21,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1_BasicCharacteristics.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1_BasicCharacteristics.html">
+      <file leaf-file-name="3_TypeofDemo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_TypeofDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_DynamicLoadJavascriptDemo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_DynamicLoadJavascriptDemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_language_en.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/2_language_en.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2_language_ch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/2_language_ch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
+                <element signature="e#537#885#0" expanded="false" />
+                <element signature="e#937#1206#0" expanded="false" />
+                <element signature="e#1255#2183#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,6 +56,7 @@
         <option value="$PROJECT_DIR$/js/2_language_en.js" />
         <option value="$PROJECT_DIR$/js/2_language_ch.js" />
         <option value="$PROJECT_DIR$/2_DynamicLoadJavascriptDemo.html" />
+        <option value="$PROJECT_DIR$/3_TypeofDemo.html" />
       </list>
     </option>
   </component>
@@ -142,20 +113,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,15 +210,15 @@
       <workItem from="1465633379077" duration="957000" />
       <workItem from="1465634904057" duration="140000" />
       <workItem from="1465639375819" duration="665000" />
-      <workItem from="1465693477133" duration="6851000" />
+      <workItem from="1465693477133" duration="12212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9838000" />
+    <option name="totallyTimeSpent" value="15199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24907063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -349,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/2_language_en.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
@@ -369,17 +326,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_DynamicLoadJavascriptDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="399">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1_BasicCharacteristics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="209">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_TypeofDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="e#537#885#0" expanded="false" />
+            <element signature="e#937#1206#0" expanded="false" />
+            <element signature="e#1255#2183#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

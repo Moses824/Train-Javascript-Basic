@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" id="btnTypeof" value="Typeof Demo" onclick="typeofDemo();"/>
+    <input type="button" id="btnUndefinedDemo" value="Underfined Demo" onclick="underfinedDemo();"/>
+    <input type="button" id="btnBooleanDemo" value="Boolean Demo" onclick="booleanDemo();"/><br/><br/>
+    <input type="button" id="btnNumberDemo" value="Number Demo" onclick="numberDemo();"/>
+    <script>
+        var typeofDemo = function () {
+            var val;
+            alert(typeof val);
+            val = "999";
+            alert(typeof val);
+            val = 99;
+            alert(typeof val);
+            val = true;
+            alert(typeof val);
+            val = null;
+            alert(typeof val); //这个很奇怪，不是吗?
+            val = {};
+            alert(typeof val);
+        };
+        
+        var underfinedDemo = function () {
+            var val;
+            alert(val == undefined);
+            val = 111;
+            alert(val == undefined);
+            val = undefined;
+            alert(val == undefined);
+
+            //val2 = 1;
+            alert(val2);
+            //var val2;
+        };
+        
+        var booleanDemo = function () {
+            var val = "";
+            if(val) {
+                alert("true");
+            } else {
+                alert("false");
+            }
+            val = " ";
+            if(val) {
+                alert("true");
+            } else {
+                alert("false");
+            }
+
+            val = 0;
+            if(val) {
+                alert("true");
+            } else {
+                alert("false");
+            }
+            val = -300;
+            if(val) {
+                alert("true");
+            } else {
+                alert("false");
+            }
+            val = 3 / 0;
+            alert(val);
+            if(val) {
+                alert("true");
+            } else {
+                alert("false");
+            }
+            val = "aaa" / 3;
+            alert(val);
+            if(val) {
+                alert("true");
+            } else {
+                alert("false");
+            }
+        };
+
+        var numberDemo = function () {
+            var myVal1 = 24  //整数
+            alert(myVal1);
+
+            var myVal2 = 024 //八进制数
+            alert(myVal2);
+            var myVal3 = 029 //无效的八进制整数
+            alert(myVal3);
+
+            var myVal4 = 0x1A //十六进制数
+            alert(myVal4);
+        }
+
+    </script>
+</body>
+</html>
