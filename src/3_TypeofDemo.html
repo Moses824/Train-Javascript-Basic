@@ -6,9 +6,13 @@
 </head>
 <body>
     <input type="button" id="btnTypeof" value="Typeof Demo" onclick="typeofDemo();"/>
-    <input type="button" id="btnUndefinedDemo" value="Underfined Demo" onclick="underfinedDemo();"/>
+    <input type="button" id="btnUndefinedDemo" value="Undefined Demo" onclick="undefinedDemo();"/>
     <input type="button" id="btnBooleanDemo" value="Boolean Demo" onclick="booleanDemo();"/><br/><br/>
     <input type="button" id="btnNumberDemo" value="Number Demo" onclick="numberDemo();"/>
+    <input type="button" id="btnNumberDemo2" value="Number Demo 2" onclick="numberDemo2();"/>
+    <input type="button" id="btnNumberDemo3" value="Number Demo 3" onclick="numberDemo3();"/>
+    <input type="button" id="btnNumberDemo4" value="Number Demo 4" onclick="numberDemo4();"/><br/><br/>
+    <input type="button" id="btnStringDemo" value="String Demo" onclick="stringDemo();"/>
     <script>
         var typeofDemo = function () {
             var val;
@@ -25,7 +29,7 @@
             alert(typeof val);
         };
         
-        var underfinedDemo = function () {
+        var undefinedDemo = function () {
             var val;
             alert(val == undefined);
             val = 111;
@@ -93,6 +97,54 @@
             alert(myVal4);
         }
 
+        var numberDemo2 = function () {
+            var myVal1 = 1.;      //解析为1
+            alert(myVal1);
+            var myVal2 = 10.0;  //解析为10
+            alert(myVal2);
+            var myVal3 = 3.125e7;  //31250000
+            alert(myVal3);
+        };
+        
+        var numberDemo3 = function () {
+            var val = "aa" / 3;
+            alert(val);
+            alert(3 + val);
+            alert(NaN == NaN);
+            alert(isNaN(val));
+            alert(isNaN("10"));
+        };
+
+        var numberDemo4 = function () {
+            alert(Number(true));
+            alert(Number(false));
+            alert(Number(null));
+            alert(Number(undefined));
+            alert(Number("11"));
+            alert(Number("022"));
+            alert(Number("0x22"));
+            alert(Number("1.1"));
+            alert(Number(""));
+            alert(Number(" "));
+            alert(Number("aaa"));
+        }
+        
+        var stringDemo = function () {
+            var age = 11;
+            var ageStr = age.toString();
+            alert(ageStr);
+
+            var isGood = false;
+            var isGoodStr = isGood.toString();
+            alert(isGoodStr);
+
+            var num = 10;
+            alert(num.toString());
+            alert(num.toString(2));
+            alert(num.toString(8));
+            alert(num.toString(10));
+            alert(num.toString(16));
+        }
     </script>
 </body>
 </html>
