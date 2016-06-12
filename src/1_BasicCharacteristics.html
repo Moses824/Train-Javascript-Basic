@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" id="btnIgnoreCase" value="Ingore Case?" onclick="ingoreCase();">
+    <input type="button" id="btnWeakType" value="Weak Type Demo" onclick="weakTypeDemo();">
+    <input type="button" id="btnNoVar" value="No 'Var' Demo" onclick="noVarDemo();">
+    <script type="text/javascript" language="JavaScript">
+        var ingoreCase = function () {
+            var myVal = 1;
+            var myval = 2;
+            alert("myVal: " + myVal);
+            alert("myval: " + myval);
+        };
+
+        var weakTypeDemo = function () {
+            var val1 = 99;
+            alert("val1 + 20 = " + (val1 + 20));
+            val1 = "99";
+            alert("val1 + 20 = " + (val1 + 20));
+        };
+        
+        var noVarDemo = function () {
+            aValWithoutVar = "I'm a variable declared without 'var'";
+            alert(aValWithoutVar);
+            alert(aValWithoutVar2);
+        };
+
+    </script>
+</body>
+</html>

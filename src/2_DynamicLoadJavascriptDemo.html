@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jq/jquery.js"></script>
+</head>
+<body>
+    <div id="content"></div>
+    <div class="lang_name"></div>
+    <div class="lang_password"></div>
+    <input type="button" id="btnToChinese" value="Chinese" onclick="changeLanguage('ch')"/>
+    <input type="button" id="btnToEnglish" value="English" onclick="changeLanguage('en')"/>
+    <script>
+        $(document).ready(function () {
+            changeLanguage('en');
+        });
+
+        var changeLanguage = function (l) {
+            var script_url = "js/2_language_en.js";
+            switch(l) {
+                case "ch":
+                    script_url = "js/2_language_ch.js"
+                    break;
+            }
+
+            $.getScript(script_url, function () {
+                langUtil.setLanguage();
+            });
+        };
+    </script>
+</body>
+</html>
