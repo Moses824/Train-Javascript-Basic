@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="Veriable Lifting" onclick="liftingDemo()" />
+    <input type="button" value="Veriable Lifting 2" onclick="liftingDemo2()" />
+    <script>
+        var liftingDemo = function () {
+            alert(x);
+            var x = 3;
+            alert(x);
+        };
+
+        var y;
+        var liftingDemo2 = function () {
+            alert(y);
+        }
+    </script>
+</body>
+</html>
