@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var v1 = "i'm v1";
+        function scopeDemo() {
+            var v2 = "i'm v2";
+            alert(v1);
+            alert(v2);
+        };
+
+        scopeDemo();
+
+        alert(v1);
+        alert(v2);
+    </script>
+</body>
+</html>
