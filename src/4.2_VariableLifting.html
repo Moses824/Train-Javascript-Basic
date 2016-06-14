@@ -7,6 +7,7 @@
 <body>
     <input type="button" value="Veriable Lifting" onclick="liftingDemo()" />
     <input type="button" value="Veriable Lifting 2" onclick="liftingDemo2()" />
+    <input type="button" value="Veriable Lifting 3" onclick="liftingDemo3('i\'m another y')" />
     <script>
         var liftingDemo = function () {
             alert(x);
@@ -14,8 +15,15 @@
             alert(x);
         };
 
-        var y;
+        var y = "i'm y";
         var liftingDemo2 = function () {
+            alert(y);
+            var y;
+        }
+
+        var liftingDemo3 = function (y) {
+            alert(y);
+            var y;  //y会被参数赋值，此处声明就是多余的
             alert(y);
         }
     </script>

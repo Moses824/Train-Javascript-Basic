@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="Parameter Demo" onclick="parameterDemo()" />
+    <input type="button" value="Parameter Demo2" onclick="parameterDemo2()" />
+    <script>
+        var parameterDemo = function () {
+            var p1 = 100;
+            testFunction1(p1);
+            alert("p1: " + p1);
+            p1 = "100";
+            testFunction1(p1);
+            alert("p1: " + p1);
+        };
+        
+        var testFunction1 = function (p) {
+            var p2 = p;
+            p2 += 100;
+            alert("p2: " + p2);
+            alert("p: " + p);
+        }
+        
+        var parameterDemo2 = function () {
+            var p1 = {attr: 100};
+            testFunction2(p1);
+            alert("p1.attr: " + p1.attr);
+        }
+
+        var testFunction2 = function (p) {
+            var p2 = p;
+            p2.attr += 100;
+            alert("p2.attr: " + p2.attr);
+            alert("p.attr: " + p.attr);
+        }
+    </script>
+</body>
+</html>
