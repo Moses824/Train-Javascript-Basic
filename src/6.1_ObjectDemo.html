@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="Prototype Demo" onclick="prototypeDemo()" />
+    <script>
+        //原型
+        var proto = {
+            sentence : 4,
+            probation : 2
+        };
+        //工厂
+        var makePrisoner = function (name, id) {
+            var prisoner = Object.create(proto);
+            prisoner.name = name;
+            prisoner.id = id;
+            return prisoner;
+        };
+
+        var prototypeDemo = function () {
+            var firstPrisoner = makePrisoner("Moses", "1");
+            var secondPrisoner = makePrisoner("Tim", "2");
+            //firstPrisoner.sentence = 5;
+            //alert("proto: " + proto.sentence);
+            //alert("firstPrisoner: " + firstPrisoner.sentence);
+            //alert("secondPrisoner: " + secondPrisoner.sentence);
+            proto.sentence = 99;
+            alert("firstPrisoner: " + firstPrisoner.sentence);
+            alert("secondPrisoner: " + secondPrisoner.sentence);
+        };
+    </script>
+</body>
+</html>

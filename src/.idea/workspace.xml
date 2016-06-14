@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="5.1_ParameterDemo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5.1_ParameterDemo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.1_ParameterDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="-38">
               <caret line="10" column="25" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.1_ObjectDemo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6.1_ObjectDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -57,6 +67,7 @@
         <option value="$PROJECT_DIR$/4_VariableScope2.html" />
         <option value="$PROJECT_DIR$/4.2_VariableLifting.html" />
         <option value="$PROJECT_DIR$/js/5.1_ParameterDemo.html" />
+        <option value="$PROJECT_DIR$/6.1_ObjectDemo.html" />
       </list>
     </option>
   </component>
@@ -229,15 +240,15 @@
       <workItem from="1465730435366" duration="4106000" />
       <workItem from="1465781125977" duration="3968000" />
       <workItem from="1465808422590" duration="9000" />
-      <workItem from="1465864250817" duration="2388000" />
+      <workItem from="1465864250817" duration="5361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25670000" />
+    <option name="totallyTimeSpent" value="28643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24832714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -380,8 +391,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.1_ParameterDemo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="-38">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.1_ObjectDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
           <folding />
         </state>
       </provider>
